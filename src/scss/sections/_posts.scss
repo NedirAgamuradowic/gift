@@ -1,0 +1,14 @@
+.posts{
+	 &__top{
+		@include margin(7.3rem, 8rem);
+	 }
+
+	 &__grid{
+		gap: 3rem;
+
+		@media screen and ($tablet) {
+			grid-template-columns: repeat(2, 1fr);
+		}
+	 }
+
+}

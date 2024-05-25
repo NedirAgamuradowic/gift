@@ -22,12 +22,14 @@
 		max-width: 400px;
 		align-self:center;
 		background: $backgroundBlack;
+		margin-top: 1rem;
 	}
 	.content{
 		display: flex;
 		flex-direction: column;
 		background: $backgroundBlack;
-		padding: 0 1rem;
+		padding-left: 1rem ;
+		padding-right: 1rem;
 		padding-top: 6.3rem;
 		padding-bottom: 4.9rem;
 	}
@@ -52,11 +54,13 @@
 	@media screen and ($tablet) {
 		flex-direction: row;
 		background: $white;
+		grid-column: 1/3;
 
 
 		.post__image{
 			align-self: stretch;
 			width: 40%;
+			margin-top: 0;
 		}
 		.content{
 			padding-left: 7.8rem;

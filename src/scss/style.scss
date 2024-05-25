@@ -2,6 +2,7 @@
 @import 'utility/variables';
 @import 'utility/mixin';
 @import 'utility/reset';
+@import 'utility/block';
 
 @import 'components/typography';
 @import 'components/link';
@@ -12,3 +13,5 @@
 @import 'blocks/top';
 @import 'blocks/content';
 @import 'blocks/post';
+
+@import 'sections/posts';
