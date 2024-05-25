@@ -1,0 +1,77 @@
+     Name                      Content                          Font     weight   size    color                 line-height
+
+BUTTON
+                       Gift Finder                             Roboto   Light     18px    F7941E / FFFFFF        auto
+                       Find gift now                           Roboto   Light     18px    F7941E / FFFFFF        auto
+					   Learn More                              Roboto   Light     18px    F7941E / FFFFFF        134.8%
+					   Find gift now                           Roboto   Light     18px    231F20 / FFFFFF        auto
+					   how it works                            Roboto   Light     18px    000000                 134.8%
+
+LINKS
+                       See More ›                             Roboto    Regular   14px     000000                135.9%
+					   Read More                              Roboto    Regular   14px     000000                140.6%
+					   Read More                              Roboto    Regular   18px     000000                140.6% 
+
+
+Navigation link
+                        Home                                  Roboto    Regular   18px     000000                auto
+						About Us                              Roboto    Regular   18px     000000                auto
+						Services                              Roboto    Regular   18px     000000                auto
+						Blogs                                 Roboto    Regular   18px     000000                auto
+
+						Home                                  Roboto    Regular   14px     000000                140.6%
+						About us                              Roboto    Regular   14px     000000                140.6%
+						Service                               Roboto    Regular   14px     000000                140.6%
+						Blog                                  Roboto    Regular   14px     000000                140.6%
+
+HEADING
+h1                      Find a gift for your                  Roboto    Regular   56px     000000                auto       left
+                        wife or girlfriend
+
+h2                      How we work                           Roboto    Regular   32px     000000                140.6%     left
+h2                      Gifts for all Occasions               Roboto    Regular   32px     000000                auto       center
+h2                      Ready to get started?                 Roboto    Regular   32px     000000                140.6%     left
+h2                      Our Best Blogs Ever                   Roboto    Regular   32px     000000                auto       center
+
+h3                      Birthday                              Roboto    Regular   20px     000000                auto       left
+h3                      Anniversary                           Roboto    Regular   20px     000000                auto       left
+h3                      Valentine's Day                       Roboto    Regular   20px     000000                auto       left
+h3                      Christmas                             Roboto    Regular   20px     000000                auto       left
+h3                      Sign up or contact us                 Roboto    Light     32px     000000                140.6%     left
+h3                      Database to find the gifts for 
+                        your girlfriend                       Roboto    Medium    24px     000000                140.6%      left
+h3                      How Artificial Intelligence read
+                        your mind to find the best gift       Roboto    Medium    24px     000000                140.6%      left
+h3                      The best way to wish your wife        Roboto    Regular   48px     000000                auto        left
+
+Text
+p                       Struggling to find a gift for your 
+						wife or girlfriend? No problem!        Roboto    Regular   20px     000000                140.6%      left
+
+						We’ve actually already asked hundreds
+						of women what they want, and made
+						a database with the results. All
+						you have to do is take our short 
+						survey that only takes seconds, and
+						our proprietary algorithm will match
+						you with a few perfect gift options.    Roboto    Regular   20px     000000                140.6%      left
+
+						“Try our web app to find the best
+						gifts for all occasions”                Roboto    Regular   18px     000000                135.9%     center
+
+						“Try our blog to find the best tips
+						and tricks to select your gift”         Roboto    Regular   18px     000000                135.9%     center
+
+						Lorem ipsum dolor sit amet,
+						consectetur adipiscing elit, sed
+						do eiusmod tempor incididunt ut
+						labore et dolore...                     Roboto    Regular   18x     000000                140.6%      left
+
+						Lorem ipsum dolor sit amet,
+						consectetur adipiscing elit, sed
+						do eiusmod tempor incididunt ut
+						labore et dolore...                    Roboto    Regular   18x     000000                140.6%      left
+
+						© 2010 — 2020  Privacy — Terms         Roboto    Regular   14x     000000                140.6%      left
+
+						Mr. John Doe                           Roboto    Light   14x     000000                140.6%      left
