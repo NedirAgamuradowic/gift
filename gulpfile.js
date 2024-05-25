@@ -18,6 +18,7 @@ const newer = require('gulp-newer');
 const webp = require('gulp-webp');
 const fonter = require('gulp-fonter');
 const ttf2woff2 = require('gulp-ttf2woff2');
+const webpHtml = require('gulp-webp-html');
 
 
 // path
@@ -100,6 +101,7 @@ const clear = () =>{
 function html() {
 	return src('./src/index.html')
 	.pipe(plumber())
+	.pipe(webpHtml(['.jpg','.jpeg', '.png']))
 	.pipe(htmlmin(config.html))
 	.pipe(dest(path.html.dest))
 	.pipe(browserSync.stream())
