@@ -3,6 +3,8 @@
 @import 'utility/mixin';
 @import 'utility/reset';
 @import 'utility/block';
+@import 'utility/flexbox';
+
 
 @import 'components/typography';
 @import 'components/link';
@@ -15,6 +17,7 @@
 @import 'blocks/card';
 @import 'blocks/post';
 
+@import 'sections/feature';
 @import 'sections/cards';
 @import 'sections/cta';
 @import 'sections/posts';
