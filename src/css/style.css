@@ -89,6 +89,15 @@ select {
   display: grid;
 }
 
+.divider {
+  height: 2px;
+  width: 100%;
+  background: #000000;
+  border-radius: 5px;
+  margin-top: 5.3rem;
+  margin-bottom: 6.2rem;
+}
+
 h1, h2, h3 {
   line-height: 1.1;
   font-family: "Roboto", sans-serif;

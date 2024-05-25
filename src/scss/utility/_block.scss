@@ -9,3 +9,10 @@
 .grid{
 	display: grid;
 }
+.divider{
+	height: 2px;
+	width: 100%;
+	background: $black;
+	border-radius: $radius;
+	@include margin(5.3rem, 6.2rem)
+}
