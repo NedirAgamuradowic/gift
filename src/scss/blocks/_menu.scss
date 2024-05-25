@@ -1,0 +1,14 @@
+.menu {
+	&__item{
+		list-style: none;
+		text-transform: capitalize;
+	}
+	&__link{
+		text-decoration: none;
+		color: $black;
+
+		&:hover{
+			color: $backgroundBlack;
+		}
+	}
+}

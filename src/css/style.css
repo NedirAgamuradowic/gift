@@ -240,6 +240,18 @@ p {
   }
 }
 
+.menu__item {
+  list-style: none;
+  text-transform: capitalize;
+}
+.menu__link {
+  text-decoration: none;
+  color: #000000;
+}
+.menu__link:hover {
+  color: #231f20;
+}
+
 .top {
   text-align: center;
 }
