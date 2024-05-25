@@ -233,6 +233,27 @@ p {
   line-height: 1.4;
 }
 
+.card {
+  flex-direction: column;
+  max-width: 270px;
+  background: #fafafa;
+  cursor: pointer;
+}
+.card__content {
+  padding: 2.4rem;
+}
+.card .content__heading {
+  text-transform: capitalize;
+  margin-bottom: 7.4rem;
+}
+.card:hover {
+  box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.1);
+  background: #ffffff;
+}
+.card .link {
+  color: #000000;
+}
+
 .post__content .content__heading {
   font-weight: 500;
   font-size: 2.4rem;

@@ -1,0 +1,25 @@
+.card{
+	flex-direction: column;
+	max-width: 270px;
+	background: $backgroundWhite;
+	cursor: pointer;
+
+
+	&__content{
+		padding: 2.4rem;
+	}
+
+	.content__heading{
+		text-transform: capitalize;
+		margin-bottom: 7.4rem;
+	}
+
+	&:hover{
+		box-shadow: $shadow;
+		background: $white;
+	}
+
+	.link{
+		color: $black;
+	}
+}
