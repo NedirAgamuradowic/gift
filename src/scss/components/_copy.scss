@@ -1,0 +1,9 @@
+.copy{
+	text-align: left;
+	font-size: 1.4rem;
+	color: $black;
+
+	@media screen and ($tablet) {
+		text-align: center;
+	}
+}
