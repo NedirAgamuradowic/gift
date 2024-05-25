@@ -158,9 +158,9 @@ p {
   text-transform: uppercase;
   line-height: 1.3;
   font-weight: 300;
-  font-size: 1.8rem;
+  font-size: 1.3rem;
+  padding: 1rem 2rem;
   border-radius: 5px;
-  padding: 1.7rem 2.5rem;
   border-width: 1px;
   border-style: solid;
   display: block;
@@ -200,6 +200,12 @@ p {
 .btn--black-outline:hover {
   background: #000000;
   color: #ffffff;
+}
+@media screen and (min-width:768px) {
+  .btn {
+    font-size: 1.8rem;
+    padding: 1.2rem 2.2rem;
+  }
 }
 
 .box {
@@ -433,6 +439,22 @@ p {
     padding-left: 7.8rem;
     padding-right: 8rem;
     flex-grow: 1;
+  }
+}
+
+.header {
+  padding: 2rem;
+  justify-content: space-between;
+  align-items: center;
+}
+@media screen and (min-width:600px) {
+  .header {
+    padding: 3rem;
+  }
+}
+@media screen and (min-width:768px) {
+  .header {
+    padding: 4rem;
   }
 }
 
