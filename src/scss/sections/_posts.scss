@@ -5,6 +5,7 @@
 
 	 &__grid{
 		gap: 3rem;
+		margin-bottom: 8rem;
 
 		@media screen and ($tablet) {
 			grid-template-columns: repeat(2, 1fr);

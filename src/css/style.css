@@ -375,7 +375,7 @@ p {
 
 @media screen and (min-width:900px) {
   .feature__content {
-    padding: 12rem 9rem 13rem 9rem;
+    padding: 16rem 16rem 10rem 11rem;
   }
 }
 
@@ -443,6 +443,7 @@ p {
 }
 .posts__grid {
   gap: 3rem;
+  margin-bottom: 8rem;
 }
 @media screen and (min-width:768px) {
   .posts__grid {
