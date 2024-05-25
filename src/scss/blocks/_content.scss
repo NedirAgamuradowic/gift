@@ -1,14 +1,33 @@
 .hero__content{
+	.content__heading{
+		font-size: 4rem;
+	}
 	.content__desc{
-		font-size: 2rem;
-		@include margin(4.5rem, 5.2rem);
+		font-size: 1.8rem;
+		@include margin(2.5rem, 3.2rem);
+	}
+
+	@media screen and ($tablet) {
+		.content__heading{
+			font-size: 5.6rem;
+		}
+		.content__desc{
+			font-size: 2rem;
+			@include margin(4.5rem, 5.2rem);
+		}
 	}
 }
 
 .feature__content{
 	.content__desc{
-		font-size: 2rem;
+		font-size: 1.8rem;
 		@include margin (2.3rem, 3rem);
+	}
+
+	@media screen and ($tablet) {
+		.content__desc{
+			font-size: 2rem;
+		}
 	}
 }
 

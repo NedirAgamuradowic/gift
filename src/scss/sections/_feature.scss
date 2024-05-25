@@ -1,4 +1,13 @@
 .feature{
+	.feature__image{
+		display: none;
+	}
+
+	@media screen and ($bigPhone){
+		.feature__image{
+			display: block;
+		}
+	}
 	@media screen and ($notebook) {
 		&__content{
 			padding: 16rem 16rem 10rem 11rem;
