@@ -1,0 +1,44 @@
+.cta{
+	background: $primaryColor;
+	padding-top: 8.1rem;
+	padding-bottom: 6.9rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+
+	&__flex{
+		flex-direction: column;
+		justify-content: center;
+	}
+	
+	&__content{
+		margin-bottom: 3rem;
+	}
+	.content__heading, .content__desc{
+		font-size: 2.8rem;
+	}
+	&__action{
+		flex-direction: column;
+		align-self: flex-start;
+		gap: 1.6rem;
+	}
+
+	@media ($bigPhone) {
+		&__flex{
+			flex-direction: row;
+			justify-content: space-around;
+		}
+		&__content{
+			margin-bottom: 0;
+		}
+		.content__heading, .content__desc{
+			font-size: 3.2rem;
+		}
+	}
+
+	@media ($tablet) {
+		&__action{
+			flex-direction: row;
+			align-self: center;
+		}
+	}
+}
