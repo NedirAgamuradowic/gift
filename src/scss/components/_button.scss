@@ -1,0 +1,55 @@
+.btn{
+	text-decoration: none;
+	text-transform: uppercase;
+	line-height: 1.3;
+	font-weight: 300;
+	font-size: 1.8rem;
+	border-radius: $radius;
+	padding: 1.7rem 2.5rem;
+	border-width: 1px;
+	border-style: solid;
+	min-width: 200px;
+	cursor: pointer;
+
+	&--primary{
+		border-color: $primaryColor;
+		background: $primaryColor;
+		color: $white;
+
+		&:hover{
+			background: transparent;
+			color: $primaryColor;
+		}
+	}
+
+	&--primary-outline{
+		border-color: $primaryColor;
+		color: $primaryColor;
+
+		&:hover{
+			background: $primaryColor;
+			color: $white;
+		}
+	}
+
+	&--black{
+		border-color: $black;
+		background: $black;
+		color: $white;
+
+		&:hover{
+			background: transparent;
+			color: $black;
+		}
+	}
+
+	&--black-outline{
+		border-color: $black;
+		color: $black;
+
+		&:hover{
+			background: $black;
+			color: $white;
+		}
+	}
+}
