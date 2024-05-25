@@ -99,3 +99,14 @@ p {
   font-weight: normal;
   color: #000000;
 }
+
+.top {
+  text-align: center;
+}
+.top__heading {
+  margin-bottom: 2.4rem;
+}
+.top__tagline {
+  line-height: 1.35;
+  font-size: 1.8rem;
+}
