@@ -167,6 +167,18 @@ p {
   color: #ffffff;
 }
 
+.box {
+  padding: 4.8rem;
+  max-width: 570px;
+  cursor: pointer;
+}
+.box:hover {
+  transition: transform 0.5s;
+  box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.1);
+  background: #ffffff;
+  transform: scale(1.01);
+}
+
 .top {
   text-align: center;
 }

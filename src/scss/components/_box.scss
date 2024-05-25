@@ -1,0 +1,12 @@
+.box{
+	padding: 4.8rem;
+	max-width: 570px;
+	cursor: pointer;
+	
+	&:hover{
+		transition: transform .5s;
+		box-shadow: $shadow;
+		background: $white;
+		transform: scale(1.01);
+	}
+}
