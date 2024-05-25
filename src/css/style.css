@@ -105,12 +105,11 @@ p {
   font-weight: normal;
   font-size: 1.4rem;
   line-height: 1.4;
-  color: #000000;
   text-decoration: none;
   text-transform: capitalize;
 }
 .link:hover {
-  color: #4d4d4d;
+  opacity: 0.8;
 }
 .link--arrow {
   position: relative;
@@ -172,12 +171,12 @@ p {
 .box {
   padding: 4.8rem;
   max-width: 570px;
+  background: #ffffff;
   cursor: pointer;
 }
 .box:hover {
   transition: transform 0.5s;
   box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.1);
-  background: #ffffff;
   transform: scale(1.01);
 }
 
@@ -213,4 +212,34 @@ p {
   font-size: 1.8rem;
   margin-top: 1.6rem;
   margin-bottom: 1.6rem;
+}
+.post__content .content__action {
+  color: #000000;
+}
+
+.post--main .content {
+  display: flex;
+  flex-direction: column;
+  background: #231f20;
+  padding-left: 7.8rem;
+  padding-top: 6.3rem;
+  padding-bottom: 4.9rem;
+}
+.post--main .content__heading {
+  color: #ffffff;
+  font-size: 4.8rem;
+  margin-top: 2.7rem;
+  margin-bottom: 6rem;
+}
+.post--main .content__desc {
+  order: -1;
+  font-size: 1.4rem;
+  font-weight: 300;
+  color: #ffffff;
+}
+.post--main .content__action {
+  line-height: 1.4;
+  font-size: 1.8rem;
+  font-weight: normal;
+  color: #ffffff;
 }
