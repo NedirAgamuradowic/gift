@@ -1,0 +1,21 @@
+.link{
+	font-family: $font;
+	font-weight: normal;
+	font-size: 1.4rem;
+	line-height: 1.4;
+	color: $black;
+	text-decoration: none;
+
+	&:hover{
+		color: lighten($black, 30%);
+	}
+	
+	&--arrow{
+		position: relative;
+
+		&::after{
+			content: '\003E';
+			margin-left: .3rem;
+		}
+	}
+}
