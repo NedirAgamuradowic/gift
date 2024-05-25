@@ -13,11 +13,21 @@
 	}
 }
 .post--main{
+	display: flex;
+	flex-direction: column;
+	background: $backgroundBlack;
+
+	.post__image{
+		width: 100%;
+		max-width: 400px;
+		align-self:center;
+		background: $backgroundBlack;
+	}
 	.content{
 		display: flex;
 		flex-direction: column;
 		background: $backgroundBlack;
-		padding-left: 7.8rem;
+		padding: 0 1rem;
 		padding-top: 6.3rem;
 		padding-bottom: 4.9rem;
 	}
@@ -39,4 +49,19 @@
 		color: $white;
 	}
 
+	@media screen and ($tablet) {
+		flex-direction: row;
+		background: $white;
+
+
+		.post__image{
+			align-self: stretch;
+			width: 40%;
+		}
+		.content{
+			padding-left: 7.8rem;
+			padding-right: 8rem;
+			flex-grow: 1;
+		}
+	}
 }
