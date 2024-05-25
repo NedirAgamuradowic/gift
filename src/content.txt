@@ -37,12 +37,13 @@ h3                      Birthday                              Roboto    Regular 
 h3                      Anniversary                           Roboto    Regular   20px     000000                auto       left
 h3                      Valentine's Day                       Roboto    Regular   20px     000000                auto       left
 h3                      Christmas                             Roboto    Regular   20px     000000                auto       left
-h3                      Sign up or contact us                 Roboto    Light     32px     000000                140.6%     left
+h3                      The best way to wish your wife        Roboto    Regular   48px     000000                auto        left
+
 h3                      Database to find the gifts for 
                         your girlfriend                       Roboto    Medium    24px     000000                140.6%      left
 h3                      How Artificial Intelligence read
                         your mind to find the best gift       Roboto    Medium    24px     000000                140.6%      left
-h3                      The best way to wish your wife        Roboto    Regular   48px     000000                auto        left
+
 
 Text
 p                       Struggling to find a gift for your 
@@ -75,3 +76,5 @@ p                       Struggling to find a gift for your
 						© 2010 — 2020  Privacy — Terms         Roboto    Regular   14x     000000                140.6%      left
 
 						Mr. John Doe                           Roboto    Light   14x     000000                140.6%      left
+
+                        Sign up or contact us                 Roboto    Light     32px     000000                140.6%     left

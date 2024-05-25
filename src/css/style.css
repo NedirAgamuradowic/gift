@@ -22,6 +22,10 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 10px;
+}
+
 ul[class],
 ol[class] {
   padding: 0;
@@ -47,6 +51,7 @@ dd {
 
 body {
   font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
   min-height: 100vh;
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
@@ -68,4 +73,29 @@ button,
 textarea,
 select {
   font: inherit;
+}
+
+h1, h2, h3 {
+  line-height: 1.1;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  color: #000000;
+}
+
+h1 {
+  font-size: 5.6rem;
+}
+
+h2 {
+  font-size: 3.2rem;
+  line-height: 1.4;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+p {
+  font-weight: normal;
+  color: #000000;
 }

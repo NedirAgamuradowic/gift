@@ -1,0 +1,21 @@
+h1, h2, h3{
+	line-height: 1.1;
+	font-family: $font;
+	font-weight: normal;
+	color: $black;
+}
+h1{
+	font-size: 5.6rem;
+}
+h2{
+	
+	font-size: 3.2rem;
+	line-height: 1.4;
+}
+h3{
+	font-size: 2rem;
+}
+p{
+	font-weight: normal;
+	color: $black;
+}
