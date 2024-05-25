@@ -7,7 +7,6 @@ const browserSync = require('browser-sync').create();
 // gulp plugins
 const plumber = require('gulp-plumber');
 const htmlmin = require('gulp-htmlmin');
-const webpHTML = require('gulp-webp-html');
 const sass = require('gulp-sass')(require('sass'));
 const csso = require('gulp-csso');
 const autoprefixer = require('gulp-autoprefixer');
@@ -99,9 +98,8 @@ const clear = () =>{
 
 // html task
 function html() {
-	return src(path.html.src)
+	return src('./src/index.html')
 	.pipe(plumber())
-	.pipe(webpHTML())
 	.pipe(htmlmin(config.html))
 	.pipe(dest(path.html.dest))
 	.pipe(browserSync.stream())
