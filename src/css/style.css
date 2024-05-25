@@ -522,3 +522,13 @@ p {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
+.footer {
+  background: #fafafa;
+  padding: 4rem 2rem;
+}
+@media screen and (min-width:768px) {
+  .footer {
+    padding: 11.5rem 2rem 14rem 2rem;
+  }
+}

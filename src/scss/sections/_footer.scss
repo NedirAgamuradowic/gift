@@ -1,0 +1,8 @@
+.footer{
+	background: $backgroundWhite;
+	padding: 4rem 2rem;
+
+	@media screen and ($tablet) {
+		padding:11.5rem 2rem 14rem 2rem;
+	}
+}
