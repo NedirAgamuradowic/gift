@@ -107,6 +107,7 @@ p {
   line-height: 1.4;
   color: #000000;
   text-decoration: none;
+  text-transform: capitalize;
 }
 .link:hover {
   color: #4d4d4d;
@@ -129,7 +130,8 @@ p {
   padding: 1.7rem 2.5rem;
   border-width: 1px;
   border-style: solid;
-  min-width: 200px;
+  display: block;
+  max-width: 200px;
   cursor: pointer;
 }
 .btn--primary {
@@ -188,4 +190,27 @@ p {
 .top__tagline {
   line-height: 1.35;
   font-size: 1.8rem;
+}
+
+.hero__content .content__desc {
+  font-size: 2rem;
+  margin-top: 4.5rem;
+  margin-bottom: 5.2rem;
+}
+
+.feature__content .content__desc {
+  font-size: 2rem;
+  margin-top: 2.3rem;
+  margin-bottom: 3rem;
+}
+
+.post__content .content__heading {
+  font-weight: 500;
+  font-size: 2.4rem;
+  line-height: 1.4;
+}
+.post__content .content__desc {
+  font-size: 1.8rem;
+  margin-top: 1.6rem;
+  margin-bottom: 1.6rem;
 }

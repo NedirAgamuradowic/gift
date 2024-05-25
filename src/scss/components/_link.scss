@@ -5,6 +5,7 @@
 	line-height: 1.4;
 	color: $black;
 	text-decoration: none;
+	text-transform: capitalize;
 
 	&:hover{
 		color: lighten($black, 30%);

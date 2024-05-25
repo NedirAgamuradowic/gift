@@ -1,0 +1,4 @@
+@mixin margin ($top:2rem, $bottom:2rem) {
+	margin-top: $top;
+	margin-bottom: $bottom;
+}

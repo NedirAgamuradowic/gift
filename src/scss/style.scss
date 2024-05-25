@@ -1,5 +1,6 @@
 @import 'utility/font';
 @import 'utility/variables';
+@import 'utility/mixin';
 @import 'utility/reset';
 
 @import 'components/typography';
@@ -9,3 +10,4 @@
 
 
 @import 'blocks/top';
+@import 'blocks/content';
