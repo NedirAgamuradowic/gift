@@ -252,6 +252,46 @@ p {
   color: #231f20;
 }
 
+.header .menu {
+  display: none;
+}
+@media screen and (min-width:768px) {
+  .header .menu {
+    display: flex;
+  }
+  .header .menu__item {
+    margin-right: 3.1rem;
+  }
+  .header .menu__item:last-of-type {
+    margin-right: 0;
+  }
+}
+
+.footer .menu {
+  margin-left: 2rem;
+}
+.footer .menu__item {
+  margin-bottom: 1rem;
+}
+.footer .menu__link {
+  font-size: 1.4rem;
+}
+@media screen and (min-width:768px) {
+  .footer .menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0;
+  }
+  .footer .menu__item {
+    margin-bottom: 0;
+    margin-right: 8.1rem;
+  }
+  .footer .menu__item:last-of-type {
+    margin-right: 0;
+  }
+}
+
 .top {
   text-align: center;
 }

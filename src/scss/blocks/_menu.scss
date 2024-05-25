@@ -12,3 +12,55 @@
 		}
 	}
 }
+
+.header{
+	.menu{
+		display: none;
+	}
+
+	@media screen and ($tablet){
+		.menu {
+			display: flex;
+
+			&__item{
+				margin-right: 3.1rem;
+
+				&:last-of-type{
+					margin-right: 0;
+				}
+			}
+		}
+	}
+}
+
+.footer{
+	.menu{
+		margin-left: 2rem;
+
+		&__item{
+			margin-bottom: 1rem;
+		}
+
+		&__link{
+			font-size: 1.4rem;
+		}
+	}
+
+	@media screen and ($tablet) {
+		.menu{
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			margin-left: 0;
+
+			&__item{
+				margin-bottom: 0;
+				margin-right: 8.1rem;
+
+				&:last-of-type{
+					margin-right: 0;
+				}
+			}
+		}
+	}
+}
