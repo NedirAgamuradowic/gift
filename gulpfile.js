@@ -14,9 +14,6 @@ const autoprefixer = require('gulp-autoprefixer');
 const rename = require('gulp-rename');
 const shorthand = require('gulp-shorthand');
 const groupCssMediaQueries = require('gulp-group-css-media-queries');
-const webpCss = require('gulp-webp-css');
-const babel = require('gulp-babel');
-const uglify = require('gulp-uglify');
 const imagemin = require('gulp-imagemin');
 const newer = require('gulp-newer');
 const webp = require('gulp-webp');
@@ -25,8 +22,8 @@ const ttf2woff2 = require('gulp-ttf2woff2');
 
 
 // path
-const pathSrc = './src';
-const pathDest = './public';
+const pathSrc = 'src';
+const pathDest = 'public';
 
 const path = {
 	root:pathDest,
@@ -115,7 +112,6 @@ function scss() {
 	return src(path.scss.src, config.sourcemaps)
 	.pipe(plumber())
 	.pipe(sass())
-	.pipe(webpCss())
 	.pipe(autoprefixer())
 	.pipe(shorthand())
 	.pipe(groupCssMediaQueries())
@@ -125,16 +121,6 @@ function scss() {
 	.pipe(dest(path.scss.dest))
 	.pipe(browserSync.stream())
 };
-
-// javascript
-function js() {
-	return src(path.js.src, config.sourcemaps)
-	.pipe(plumber())
-	.pipe(babel(config.babel))
-	.pipe(uglify())
-	.pipe(dest(path.js.dest))
-	.pipe(browserSync.stream())
-}
 
 // image
 function image() {
@@ -166,7 +152,6 @@ function font() {
 function watcher() {
 	watch(path.html.watch, html)
 	watch(path.scss.watch, scss)
-	watch(path.js.watch, js)
 	watch(path.img.watch, image)
 	watch(path.font.watch, font);
 }
@@ -177,7 +162,7 @@ function server() {
 }
 
 // build project
-const build = series(clear, parallel(html, scss, js, image, font));
+const build = series(clear, parallel(html, scss, image, font));
 
 // development
 const development = series(build,  parallel(watcher, server));
@@ -187,7 +172,6 @@ const development = series(build,  parallel(watcher, server));
 exports.clear = clear;
 exports.html = html;
 exports.scss = scss;
-exports.js = js;
 exports.image = image;
 exports.font = font;
 exports.watch = watcher;
