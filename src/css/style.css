@@ -205,11 +205,20 @@ p {
   text-align: center;
 }
 .top__heading {
+  font-size: 2.8rem;
   margin-bottom: 2.4rem;
 }
 .top__tagline {
   line-height: 1.35;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
+}
+@media screen and (min-width:768px) {
+  .top__heading {
+    font-size: 3.2rem;
+  }
+  .top__tagline {
+    font-size: 1.8rem;
+  }
 }
 
 .hero__content .content__desc {
@@ -323,6 +332,23 @@ p {
     padding-right: 8rem;
     flex-grow: 1;
   }
+}
+
+.cards {
+  padding: 0 1rem;
+  padding-bottom: 13.7rem;
+}
+.cards__top {
+  margin-top: 9.6rem;
+  margin-bottom: 6.4rem;
+}
+.cards__flex {
+  flex-wrap: wrap;
+  gap: 3rem;
+  align-items: center;
+}
+.cards .card {
+  margin: 0 auto;
 }
 
 .cta {

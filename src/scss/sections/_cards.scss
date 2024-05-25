@@ -1,0 +1,17 @@
+.cards{
+	padding: 0 1rem;
+	padding-bottom: 13.7rem;
+
+	&__top{
+		@include margin(9.6rem, 6.4rem)
+	}
+
+	&__flex{
+		flex-wrap: wrap;
+		gap: 3rem;
+		align-items: center;
+	}
+	.card{
+		margin: 0 auto;
+	}
+}
